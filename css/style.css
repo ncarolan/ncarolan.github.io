@@ -57,6 +57,10 @@ body {
   
 }
 
+hr {
+  color: "white";
+}
+
 
 .cover-container {
   max-width: 45em;
