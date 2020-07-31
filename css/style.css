@@ -57,7 +57,7 @@ body {
   
 }
 
-hr {
+.hr {
   color: "white";
 }
 
@@ -145,7 +145,7 @@ hr {
 }
 .fa:hover{
   color: grey;
-  border-bottom: none;
+  text-decoration: none;
 }
 .fa-github{
   color: grey;
