@@ -26,13 +26,6 @@
 
 
 		<style>
-			.carousel-slide{
-				width: 200px;
-			}
-      .carousel-item {
-        height: 1000px;
-        width: 100%;
-      }
       /*
        * Social Media Links
        */
@@ -74,6 +67,9 @@
         border-bottom: 1px;
         padding-bottom: 2rem;
       }
+      h2{
+        margin-bottom: 0rem;
+      }
 
 
 		</style>
@@ -114,60 +110,33 @@
 
   	<main>
 
-  		<div id="project_carousel" class="carousel slide" data-ride="carousel" data-interval=false>
+      <div class="container">
+        <hr>
+        <h2>Seam Carving</h2> 
+        <p><a href="https://github.com/ncarolan/seam-carving">Repository</a></p>
+        <p>A neat algorithm for content-aware image resizing in Python. This preserves salient objects for distortion-free cropping. I used dynamic programming to minimize cuts through edges found with Sobel filters or the Laplacian operator.</p> 
+        <img src="Winter1946.gif" alt="Seam Carving" style="height: 100;">  
+      </div>
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#project_carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#project_carousel" data-slide-to="1"></li>
-          <li data-target="#project_carousel" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- Carousel Items -->
-        <div class="carousel-inner">
+      <div class="container">
+        <hr>
+        <h2>E V O</h2> 
+        <p><a href="https://github.com/ncarolan/evo">Repository</a> | <a href="https://ncarolan.github.io/evo">Website</a></p>
+        <p>An online framework for exploring evolutionary computation and genetic programming. Agents develop emergent policies through selection and recombination. Built in Javascript with p5.js.</p>   
+      </div>
 
-          <!-- Item 1 -->
-          <div class="carousel-item active">
-            <div class="container">
-          	 <h2>CastleGAN</h2> 
-             <img src="CastleGIF.gif" alt="CastleGAN" style="width: 100%;">
-             <p>CastleGAN is an implementation of DC-GAN<sup>[<a href='https://www.tensorflow.org/tutorials/generative/dcgan'>1</a>]</sup> in TensorFlow trained on images labeled "Castle" from Google's OpenImage<sup>[<a href='https://storage.googleapis.com/openimages/web/index.html'>2</a>]</sup> database. The visualization above shows model outputs over 500 epochs of training.</p> 	
-            </div>
-          </div><!-- End Item 1 -->
-
-          <!-- Item 2 -->
-          <div class="carousel-item">
-            <div class="container">
-          	 <h2>E V O</h2>
-            </div>
-          </div> <!-- End Item 2 -->
-
-          <!-- Item 3 -->
-          <div class="carousel-item">
-            <div class="container">
-          	   <h2>Influencing Where People Look in Generated Images</h2>
-               <h4><i>Deep Image Generation Conditioned on Visual Saliency</i></h4>
-
-               <p>This ongoing project is my senior honors thesis.</p>
-
-               <p></p>
-
-               <p></p>
-             </div>
-          </div> <!-- End Item 3 -->
+      <div class="container">
+        <hr>
+        <h2>CastleGAN</h2> 
+        <p><a href="https://ncarolan.github.io/blog/castle-gan">Blog</a></p>
+        <p>CastleGAN is an implementation of DC-GAN<sup>[<a href='https://www.tensorflow.org/tutorials/generative/dcgan'>1</a>]</sup> in TensorFlow trained on images labeled "Castle" from Google's OpenImage<sup>[<a href='https://storage.googleapis.com/openimages/web/index.html'>2</a>]</sup> database. The visualization above shows model outputs over 500 epochs of training.</p>   
+        <img src="CastleGIF.gif" alt="CastleGAN" style="height: 100;">
+      </div>
 
 
-    	</div> <!-- End Carousel Items -->
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#project_carousel" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#project_carousel" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
 
-      	</div> <!-- /Carousel -->
+
+
 	</main>
 
 
