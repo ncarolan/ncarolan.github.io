@@ -35,11 +35,10 @@ a:active {
 
 .blue-text {
   color: skyblue;
-  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .container {
@@ -185,6 +184,9 @@ h1, h2, h3, h4, h5, h6 {
 .fa-twitter{
   color: black;
 }
+.fa-graduation-cap{
+  color: black;
+}
 .fa-paper-plane-o{
   color: black;
 }
@@ -203,5 +205,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .gold-text {
   color: goldenrod;
-  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+}
+
+.navbar-border {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.times-new-roman {
+  font-family: "Times New Roman", serif
+}
+
+.playfair {
+  font-family: "Playfair Display", serif
+}
+
+.georgia {
+  font-family: Georgia, serif
 }
