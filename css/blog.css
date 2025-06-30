@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .fa {  
-  color: grey;
+  color: black;
   padding: 0.25rem 0;
   font-weight: 700;
   font-size: 20px;
@@ -172,23 +172,8 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fa:hover{
-  color: none;
+  color: skyblue;
   text-decoration: none;
-}
-.fa-github{
-  color: black;
-}
-.fa-linkedin{
-  color: black;
-}
-.fa-twitter{
-  color: black;
-}
-.fa-graduation-cap{
-  color: black;
-}
-.fa-paper-plane-o{
-  color: black;
 }
 
 /*
