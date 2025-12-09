@@ -1,5 +1,26 @@
 <!doctype html>
   <html>
+  <style>
+    body {
+      font-family: "Computer Modern Serif", serif;
+      line-height: 1.4;
+      font-size: 16px;
+      padding: 0 10px;
+      margin: 50px auto;
+      max-width: 650px;
+    }
+    #maincontent {
+      max-width: 42em;
+      margin: 15px auto;
+    }
+    a:link {
+      color: darkblue;
+    }
+    a:visited {
+      color: darkblue;
+    }
+  </style>
+
   <head>
     <meta charset="utf-8">
     <title>Nicholas Carolan</title>
@@ -10,94 +31,71 @@
     <meta property="og:type" content="article" />
     <meta property="og:description" content="" />
 
-    <!-- Social Media Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
   </head>
 
   <body>
-    <div class="container">
+    <h1 style="margin-bottom: -5px;">Nicholas Carolan</h1>
+    <hr>
+    <p>
+      <a href="https://www.github.com/ncarolan" target="_blank">Github</a> / 
+      <a href="https://scholar.google.com/citations?user=dFBwlZcAAAAJ&hl=en" target="_blank">Google Scholar</a> / 
+      <a href="https://www.linkedin.com/in/nicholas-carolan/" target="_blank">LinkedIn</a> / 
+      <a href="https://twitter.com/N_Carolan" target="_blank">Twitter</a> / 
+      <a href="https://nicholascarolan.substack.com/" target="_blank">Substack</a></p>
+    <hr>
 
-      <!-- Header -->
-      <header class="blog-header py-3 text-left">
-        <a class="blog-header-logo text-dark" href="index.html">Nicholas Carolan</a>          
-      </header>
-      <!-- /Header -->
-
-      <!-- Navbar -->
-      <div class="row flex-nowrap justify-content-between align-items-center py-1 mb-1">
-        <div class="col-4 pt-1">
-          <a class="p-2" href="index.html#publications"><b>Publications</b></a>
-          <a class="p-2" href="https://nicholascarolan.substack.com/" target="_blank"><b>Blog</b></a>
-          <a class="p-2" href="index.html#miscellaneous"><b>Misc</b></a>
-        </div>
-        <div class="col-4 d-flex justify-content-end mt-1">  
-          <a class="fa fa-github" href="https://www.github.com/ncarolan" target="_blank"></a>  
-          <a class="fa fa-twitter" href="https://twitter.com/N_Carolan" target="_blank"></a>  
-          <a class="fa fa-graduation-cap" href="https://scholar.google.com/citations?user=dFBwlZcAAAAJ&hl=en" target="_blank"></a>
-          <a class ="fa fa-linkedin" href="https://www.linkedin.com/in/nicholas-carolan/" target="_blank"></a> 
-        </div>
-      </div>
-      <!-- /Navbar -->
-
-      <!-- Header (bottom border) -->
-      <header class="blog-header"></header>
-      <!-- /Header -->
-
-      <!-- About -->
-      <div class="row mt-4 mb-0 h-100">
-        <div class="col-9 d-flex align-items-center">
-          <div class="p-0 mb-1 w-100">
-            <p class="mt-0"><i>I'm an engineer and researcher working on machine intelligence and perception.</i></p>
-            <p>My interests lie in building intelligent systems that can learn rich representations from data and reason over those representations to solve fundamental problems. I'm currently working on projects in interpretability, representation learning, and computer vision.</p>
-            <p>Previously, I worked on image generation/understanding and photo editing at Google, where I contributed to research on "rich human feedback" for generative models that won a <a href="https://cvpr.thecvf.com/Conferences/2024/News/Awards" target="_blank">CVPR best paper award</a> and multiple Google tech impact awards. Before that, I studied computer science at <a href="https://www.amherst.edu" target="_blank">Amherst College</a>.</p>
-          </div>
-        </div>
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img src="images/index/self.jpg" class="img-fluid" alt="Profile photo">
-        </div>
-      </div>
-      <!-- /About -->
+    <!-- About -->
+    <p class="mt-0"><i>I'm an engineer and researcher working on machine intelligence and perception.</i></p>
+    <p>My interests lie in building intelligent systems that can learn rich representations from data and reason over those representations to solve fundamental problems. I'm currently working on projects in interpretability, representation learning, and computer vision.</p>
+    <p>Previously, I worked on image generation/understanding and photo editing at Google, where I contributed to research on "rich human feedback" for generative models that won a <a href="https://cvpr.thecvf.com/Conferences/2024/News/Awards" target="_blank">CVPR best paper award</a>. Before that, I studied computer science at <a href="https://www.amherst.edu" target="_blank">Amherst College</a>.</p>
+    <!-- /About -->
 
 
-      <!-- Recent Content -->
-      <h5 class="pt-1 mt-3 pb-1 mb-4 font-italic border-bottom"><b>Recent News</b></h5>
-      <p class="mb-0"><strong>June 19, 2024:</strong> <a href="https://arxiv.org/abs/2312.10240" target="_blank">Our paper</a> wins the best paper award at CVPR!</p>
-      <p class="mb-0"><strong>April 4, 2024:</strong> <a href="https://arxiv.org/abs/2312.10240" target="_blank">"Rich Human Feedback for Text-to-Image Generation"</a> is selected as an oral presentation at CVPR.</p>
-      <p class="mb-0"><strong>February 26, 2024:</strong> Our paper <a href="https://arxiv.org/abs/2312.10240" target="_blank">"Rich Human Feedback for Text-to-Image Generation"</a> is accepted to CVPR.</p>
-      <!-- /Recent Content -->
-
-      <!-- Publications -->
-      <h5 id="publications" class="pt-1 mt-4 pb-1 mb-4 font-italic border-bottom"><b>Publications</b></h5>
-
-        <h5 class="mb-0"><a class="text-dark">Rich Human Feedback for Text-to-Image Generation</a></h5>
-        <div class="mb-0 text-small text-muted">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</div> 
-        
-        <p class="text-tiny mb-0"><i> Youwei Liang*, Junfeng He*, Gang Li*, Peizhao Li, Arseniy Klimovskiy, <strong>Nicholas Carolan</strong>, Jiao Sun, Jordi Pont-Tuset, Sarah Young, Feng Yang, Junjie Ke, Krishnamurthy Dj Dvijotham, Katie Collins, Yiwen Luo, Yang Li, Kai J Kohlhoff, Deepak Ramachandran, Vidhya Navalpakkam</i></p>
-      <strong class="mb-1">[<a href="https://arxiv.org/abs/2312.10240" target="_blank">ArXiv</a>] [<a href="https://research.google/blog/rich-human-feedback-for-text-to-image-generation/" target="_blank">Blog</a>]</strong><span class="gold-text"> [Oral Presentation] [Best Paper Award]</span>
-      <!-- /Publications -->
-
-
-      <!-- Projects -->
-      <h5 id="projects" class="pt-1 mt-4 pb-1 mb-4 font-italic border-bottom"><b>Projects</b></h5>
-
-      <p class="mb-0"><a class="georgia" style="font-size: 18px;" href="https://github.com/ncarolan/COS302/">COS302</a><a class="georgia" style="font-size: 18px;">  |  </a>  Independent coursework for Princeton's open-source COS 302 Mathematics for Machine Learning.</p>
-      <!-- /Projects -->
+    <!-- Recent Content -->
+    <h3 id="news" style="margin-top: 30px; margin-bottom: -5px;">Recent News</h3>
+    <hr style="margin-bottom: -5px;">
+    <p>
+      <strong>June 19, 2024:</strong> <a href="https://arxiv.org/abs/2312.10240" target="_blank">Our paper</a> wins the best paper award at CVPR! <br>
+      <strong>April 4, 2024:</strong> <a href="https://arxiv.org/abs/2312.10240" target="_blank">Rich Human Feedback for Text-to-Image Generation</a> is selected as an oral presentation at CVPR.<br>
+      <strong>February 26, 2024:</strong> Our paper <a href="https://arxiv.org/abs/2312.10240" target="_blank">Rich Human Feedback for Text-to-Image Generation</a> is accepted to CVPR.
+    </p>
+    <!-- /Recent Content -->
       
 
-      <!-- Miscellaneous -->
-      <h5 id="miscellaneous" class="pt-1 mt-4 pb-1 mb-4 font-italic border-bottom"><b>Miscellaneous</b></h5>
+    <!-- Publications -->
+    <h3 id="publications" style="margin-top: 30px; margin-bottom: -5px;">Publications</h3>
+    <hr>
+    <p><a href="https://arxiv.org/abs/2312.10240" target="_blank"><b>Rich Human Feedback for Text-to-Image Generation.</b></a> 
+      Youwei Liang*, Junfeng He*, Gang Li*, Peizhao Li, Arseniy Klimovskiy, <strong>Nicholas Carolan</strong>, Jiao Sun, Jordi Pont-Tuset, Sarah Young, Feng Yang, Junjie Ke, Krishnamurthy Dj Dvijotham, Katie Collins, Yiwen Luo, Yang Li, Kai J Kohlhoff, Deepak Ramachandran, Vidhya Navalpakkam. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024. <br>
+      [<a href="https://arxiv.org/abs/2312.10240" target="_blank">ArXiv</a>] [<a href="https://research.google/blog/rich-human-feedback-for-text-to-image-generation/" target="_blank">Blog</a>]</p>
+    <ul>
+      <li>Winner of <a href="https://cvpr.thecvf.com/Conferences/2024/News/Awards" target="_blank">best paper award</a>, oral presentation.</li>
+    </ul>
+    <!-- /Publications -->
 
-      <p class="mb-0"><a class="georgia" style="font-size: 18px;" href="fakeplaces.html">These Places Do Not Exist</a><a class="georgia" style="font-size: 18px;">  |  </a>  Fake census tracts for NeurIPS 2021 Workshop on ML for Creativity and Design.</p>
-      <div class="mb-2 text-small text-muted">September 7, 2021</div>
 
-      <p class="mb-4"></p>
-      <!-- /Miscellaneous -->
+    <!-- Projects -->
+    <h3 id="projects" style="margin-top: 30px; margin-bottom: -5px;">Projects</h3>
+    <hr style="margin-bottom: -5px;">
 
-    </div>
+    <h4 style="font-size: 18px; margin-bottom: -10px;"><a href="https://github.com/ncarolan/COS302/" target="_blank">COS302</a></h4>
+    <ul>
+      <li>Self-studied Princeton's COS 302 (Mathematics for Machine Learning) using publicly available lectures and materials. Repository contains all my problem sets and programming assignments.</li>
+    </ul>
+    <!-- /Projects -->
+
+
+    <!-- Misc -->
+    <h3 id="miscellaneous" style="margin-top: 30px; margin-bottom: -5px;">Miscellaneous</h3>
+    <hr style="margin-bottom: -5px;">
+
+    <h4 style="font-size: 18px; margin-bottom: 0px;"><a href="fakeplaces.html">These Places Do Not Exist</a></h4>
+    <a>September 7, 2021</a>
+    <ul style="margin-top: 5px;">
+      <li>Fake census tracts for NeurIPS 2021 Workshop on ML for Creativity and Design.</li>
+    </ul>
+    <!-- /Misc -->
 
   </body>
   </html>
