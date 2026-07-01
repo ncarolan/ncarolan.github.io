@@ -40,6 +40,14 @@ a:link {
 a:visited {
   color: darkblue;
 }
+a.plain-link,
+  a.plain-link:link,
+  a.plain-link:visited,
+  a.plain-link:hover,
+  a.plain-link:active {
+    text-decoration: none;
+    color: inherit;
+  }
 h1, h2, h3, h4 {
   font-variant: small-caps;
 }
