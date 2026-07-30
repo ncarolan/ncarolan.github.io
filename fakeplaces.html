@@ -1,8 +1,16 @@
 <!doctype html>
 <html>
+	<style>
+		p { text-align: justify; hyphens: auto;}
+	  </style>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>These Places Do Not Exist</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/index/android-chrome-192x192.png">
 
     <!-- CSS -->
     <link rel="preload" href="fonts/Computer_Modern/cmunrm.woff2" as="font" type="font/woff2" crossorigin>
@@ -19,23 +27,23 @@
 
     <hr>
 
-    <p>These are <i>places that do not exist</i>, a collection of imaginary U.S. Census tracts conjured up by the StyleGAN2-ada deep generative model. The real U.S. Census tracts - 74,134 in total - are the most granular official subdivision of the United States. Their unique shapes and features are being chronicled by artist Neil Freeman [<a href="https://placesjournal.org/article/earthward-neil-freeman-everytract">1</a>] through his Twitter bot <a  href="https://twitter.com/everytract">@everytract</a>, which posts aerial photography of every census tract, one tract every half hour. Following other work in ultra-realistic generative creation, notably <i>This Person Do Not Exist</i> [<a href="https://www.thispersondoesnotexist.com/">2</a>], I probe the artistic realism and creative understanding of state-of-the-art machine learning. This project uses the U.S. Census aerial images to train one of the most highly performant generative models, StyleGAN2-ada [<a href="https://github.com/NVlabs/stylegan2-ada">3</a>]. The result is a machine-imagined view of artificial geography and communities, some dreamlike and some remarkably real.</p>
+    <p>These are <i>places that do not exist</i>, a collection of imaginary U.S. Census tracts conjured up by the StyleGAN2-ada deep generative model. The real U.S. Census tracts - 74,134 in total - are the most granular official subdivision of the United States. Their unique shapes and features are being chronicled by artist Neil Freeman [<a href="https://placesjournal.org/article/earthward-neil-freeman-everytract">1</a>] through his Twitter bot <a  href="https://twitter.com/everytract">@everytract</a>, which posts aerial photography of every census tract, one tract every half hour. Following other work in ultra-realistic generative creation, notably <i>This Person Does Not Exist</i> [<a href="https://www.thispersondoesnotexist.com/">2</a>], I probe the artistic realism and creative understanding of state-of-the-art machine learning. This project uses the U.S. Census aerial images to train one of the most highly performant generative models, StyleGAN2-ada [<a href="https://github.com/NVlabs/stylegan2-ada">3</a>]. The result is a machine-imagined view of artificial geography and communities, some dreamlike and some remarkably real.</p>
 
     <div class="grid">
 		  <div class="grid-item">
-		    <img src="images/fakeplaces/Census Tract 1, Weld County, Colorado.jpg" alt="Census Tract 1, Weld County, Colorado">
+		    <img src="images/fakeplaces/Census Tract 1, Weld County, Colorado.jpg" alt="Census Tract 1, Weld County, Colorado" loading="lazy">
 		    <div class="caption">Census Tract 1, Weld County, Colorado</div>
 		  </div>
 		  <div class="grid-item">
-		    <img src="images/fakeplaces/Urban1.png" alt="Synthesized Census Tract (Urban)">
+		    <img src="images/fakeplaces/Urban1.png" alt="Synthesized Census Tract (Urban)" loading="lazy">
 		    <div class="caption">Synthesized Census Tract (Urban)</div>
 		  </div>
 		  <div class="grid-item">
-		    <img src="images/fakeplaces/Census Tract 1.01, Whitfield County, Georgia.jpg" alt="Census Tract 1.01, Whitfield County, Georgia">
+		    <img src="images/fakeplaces/Census Tract 1.01, Whitfield County, Georgia.jpg" alt="Census Tract 1.01, Whitfield County, Georgia" loading="lazy">
 		    <div class="caption">Census Tract 1.01, Whitfield County, Georgia</div>
 		  </div>
 		  <div class="grid-item">
-		    <img src="images/fakeplaces/Rural2.png" alt="Synthesized Census Tract (Rural)">
+		    <img src="images/fakeplaces/Rural2.png" alt="Synthesized Census Tract (Rural)" loading="lazy">
 		    <div class="caption">Synthesized Census Tract (Rural)</div>
 		  </div>
 		</div>
@@ -43,14 +51,11 @@
     
     <hr>
 
-    <img src="images/fakeplaces/fakes0006.jpg" width=100%>
-    <img src="images/fakeplaces/fakes00012.jpg" width=100%>
-    <img src="images/fakeplaces/fakes000448.jpg" width=100%>
+    <img src="images/fakeplaces/fakes0006.jpg" width=100% loading="lazy">
+    <img src="images/fakeplaces/fakes00012.jpg" width=100% loading="lazy">
+    <img src="images/fakeplaces/fakes000448.jpg" width=100% loading="lazy">
 
     <hr>
-
-  </div>
-  </main>
 
 	<footer>
 	   <p>Created by <a href="index.html">Nicholas Carolan</a> for NeurIPS 2021 Workshop on ML for Creativity and Design. Originally published 7 September 2021.</p>

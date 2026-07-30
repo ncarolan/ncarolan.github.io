@@ -4,7 +4,7 @@
        url('../fonts/Computer_Modern/cmunrm.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
        url('../fonts/Computer_Modern/cmunti.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
        url('../fonts/Computer_Modern/cmunbx.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 body {
